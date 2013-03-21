@@ -1,2 +1,0 @@
-copernica.github.com
-====================
