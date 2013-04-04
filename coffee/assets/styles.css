@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body{
+	width: 1024px;
+	margin: 0 auto;
+	display: block;
+}
+header{
+	background: url("../images/beans.jpg") no-repeat;
+	height:280px;
+	text-align: center;
+}
+nav{
+	background-color: #230b03;
+	width: 1024px;
+	height: 30px;
+	margin: 30px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+nav a{
+	color: #cebb99;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 10px 5px 10px 5px;
+}
+nav a:hover{
+	color: #e5d6ba;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 10px 5px 10px 5px;
+}
+nav a:active{
+	color: #ffffff;
+	font-size: 18px;
+	text-decoration: none;
+	margin: 10px 5px 10px 5px;
+}
+h1 {
+	text-align: center;
+	color: #230b03;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+p {
+	font-size: 12pt;
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+}
+article {
+	width: 400px;
+	margin: 0px 40px 0px 40px;
+}
+article ul{
+	color: #bdaa88;
+	font-family: impact, sans-serif;
+	font-size: 20px;
+}
+.left {
+	float: left;
+	margin-left: 40px;
+}
+.right{
+	float: right;
+	margin-right: 40px;
+}
+footer{
+	background-color: #230b03;
+	width: 1024px;
+	height: 60px;
+	margin: 10px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
+}
+footer p{
+	color: #cebb99;
+	font-size: 14px;
+	text-decoration: none;
+}
+.page-img{
+	margin: 10px 0px 10px 0px;
+	float: left;
+}
