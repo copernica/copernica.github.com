@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/* CSS Document */
+/* font-family: 'Petit Formal Script', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Crete Round', serif;
+font-family: 'Sansita One', cursive;
+font-family: 'Carrois Gothic SC', sans-serif;
+*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: url(http://i.imgur.com/4el380i.gif) repeat left top;
+}
+#section1{
+	 width: 100%;
+	 height: 260px;
+     margin: 0;
+     padding: 0;
+     background-color: #FFE4D3;
+	 opacity:0.7;
+	 filter:alpha(opacity=70); /* For IE8 and earlier */
+	 position:relative;
+	 -webkit-box-shadow: inset 0px 0px 10px 0px #DCC4AE;
+box-shadow: inset 0px 0px 10px 0px #DCC4AE;
+}
+
+#section2{
+	 width: 100%;
+	 height:100%;
+     margin: 0;
+     padding: 0;
+     background-color: #3E342E;
+	 opacity:0.7;
+	 filter:alpha(opacity=70); /* For IE8 and earlier */
+	 position:relative;
+}
+
+#footer{
+	 width: 100%;
+	 height: 130px;
+     margin: 0;
+     padding: 0;
+     background-color: #FF9C9A;
+	 opacity:0.7;
+	 filter:alpha(opacity=70); /* For IE8 and earlier */
+	 position:relative;
+}
+#footer li{
+	display: inline-block;
+}
+#section1 .ribbon {
+	width:57%;
+	min-width:200px;
+	height:85px;
+	margin: 0 auto;	
+	position:relative;
+	padding-top:20px;
+}
+#section1 .upper-ribbon {
+	width:100%;
+	height:65px;
+	margin-bottom:20px;
+	background:#DBB29A;
+	position:absolute;
+	z-index:1000;
+	border-top:2px #ffffff solid;	
+}
+
+#section1 .lower-ribbon-left {
+	width:70px;
+	height:55px;
+	margin-top:20px;
+	margin-left:-20px;
+	background:#B39179;
+	position:absolute;
+	left:0px;
+	border-top:2px #ffffff solid;	
+}
+#section1 .lower-ribbon-right {
+	width:70px;
+	height:55px;
+	margin-top:20px;
+	margin-right:-20px;
+	background:#B39179;	
+	position:absolute;
+	right:0px;
+	border-top:2px #ffffff solid;	
+}
+.arrow-left {
+  width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 0 50px 10px 0;
+border-color: transparent #3E342E transparent transparent;
+position:absolute;
+right:0px;
+bottom:0px;
+}
+.arrow-right {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 50px 0 0;
+	border-color: #3E342E transparent transparent transparent;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+
+.edge-arrow-left{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 27px 0 27px 10px;
+	border-color: transparent transparent transparent #FFE4D3;	
+	position:absolute;
+	left:0px;
+	z-index:1001;
+}
+.edge-arrow-right{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 27px 10px 27px 0;
+	border-color: transparent #FFE4D3 transparent transparent;	
+	position:absolute;
+	right:0px;
+	z-index:1001;
+}
+
+#section1 h2{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:5em;
+	color:#A0907E;
+	text-align:center;
+	text-shadow: 0px 0px 4px rgba(179, 174, 150, 0.35),1px 1px white, -1px -1px #A87350;
+}
+#section1 h1{
+	font-family: 'Oleo Script', cursive;
+	font-size:40pt;
+	color:#FFFCF3;
+	text-align:center;
+	text-shadow: 1px 1px 1px rgba(250, 128, 146, 1);
+	
+}
+
+#section1 footer{
+	width: 100%; 
+	height: 36px;
+	position:absolute;
+	bottom:0px;
+}
+#section1 footer:after {
+content: " ";
+    display:block;
+    position: relative;
+top:0px;left:0px;
+    width:100%;
+    height:36px;
+    background: linear-gradient(#FFE4D3 100%, transparent 0%), linear-gradient(135deg, #3E342E 33.33%, transparent 33.33%) 0 0%, #3E342E linear-gradient(45deg, #3E342E 33.33%, 	#FFE4D3 100%) 0 0%;
+    background: -webkit-linear-gradient(#FFE4D3 0%, transparent 0%), -webkit-linear-gradient(135deg, #3E342E 33.33%, transparent 33.33%) 0 0%, #3E342E -webkit-linear-gradient(45deg, #3E342E 33.33%, #FFE4D3 33.33%) 0 0%;
+    background: -o-linear-gradient(#3E342E 0%, transparent 0%), -o-linear-gradient(135deg, #3E342E 33.33%, transparent 33.33%) 0 0%, #3E342E -o-linear-gradient(45deg, #3E342E 33.33%, #3E342E 33.33%) 0 0%;
+    background: -moz-linear-gradient(#FFE4D3 0%, transparent 0%), -moz-linear-gradient(135deg, #3E342E 33.33%, transparent 33.33%) 0 0%, #3E342E -moz-linear-gradient(45deg, #3E342E 33.33%, #FFE4D3 100%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 9px 27px, 9px 27px;
+    }
+#section2 h1{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	color:#FFFCF3;
+	text-shadow: 0px 0px 4px rgba(179, 174, 150, 0.35);
+	font-size:2em;
+}
+#section2 footer{
+	width: inherit; 
+	height: 36px;
+	position:absolute;
+	bottom:0px;
+}
+#section2 footer:after {
+content: " ";
+    display:block;
+    position: relative;
+top:0px;left:0px;
+    width:100%;
+    height:36px;
+    background: linear-gradient(#3E342E 100%, transparent 0%), linear-gradient(135deg, #FF9C9A 33.33%, transparent 33.33%) 0 0%, #FF9C9A linear-gradient(45deg, #FF9C9A 33.33%, 	#3E342E 100%) 0 0%;
+    background: -webkit-linear-gradient(#3E342E 0%, transparent 0%), -webkit-linear-gradient(135deg, #FF9C9A 33.33%, transparent 33.33%) 0 0%, #FF9C9A -webkit-linear-gradient(45deg, #FF9C9A 33.33%, #3E342E 33.33%) 0 0%;
+    background: -o-linear-gradient(#FF9C9A 0%, transparent 0%), -o-linear-gradient(135deg, #FF9C9A 33.33%, transparent 33.33%) 0 0%, #FF9C9A -o-linear-gradient(45deg, #FF9C9A 33.33%, #FF9C9A 33.33%) 0 0%;
+    background: -moz-linear-gradient(#3E342E 0%, transparent 0%), -moz-linear-gradient(135deg, #FF9C9A 33.33%, transparent 33.33%) 0 0%, #FF9C9A -moz-linear-gradient(45deg, #FF9C9A 33.33%, #3E342E 100%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 9px 27px, 9px 27px;
+    }
+#section2 h2{
+	font-family: 'Petit Formal Script', cursive;
+	color:#DBB99E;
+}
+#footer h1{
+	font-family: 'Crete Round', serif;
+	color:#FFFCF3;
+	text-shadow: 0px 0px 4px rgba(179, 174, 150, 0.55);
+}
+
+/*
+#section3 .footer-triangles{
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #4F93AE;	
+}
+*/
+
+.heart{
+	font-size:4em;
+	color:#FAC6BE;
+	text-shadow: 0px 0px 4px rgba(179, 174, 150, 0.35),1px 1px white, -1px -1px #A87350;
+	margin:0 auto;
+	width:200px;
+	text-align:center;
+	position:relative;
+	bottom:0px;
+}
+	
+.text{
+	margin:0 auto;
+	width:80%;
+	position:relative;
+	text-align:center;
+	padding-top:20px;
+}
+
+
+p {
+	font-size:.7em;
+}
+
+
+ h1, h2, p {
+	 margin: 0;
+     padding: 0;
+ }
+ .content{
+	 width:540px;
+	 margin: 0 auto;
+	 position: relative;
+	 overflow: auto;
+ }
