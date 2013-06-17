@@ -1,0 +1,103 @@
+* {box-sizing:border-box;}
+
+#header .ribbon {
+	width:350px;
+	height:85px;
+	margin: 0 auto;	
+	position:relative;
+	padding-top:10px;
+}
+
+/*--------blue ribbon------------*/
+
+#header .upper-blue {
+	width:100%;
+	height:65px;
+	margin-bottom:20px;
+	background:#2CADBF url(../imgs/ribbon-bg-upper.png) center repeat-x;
+	position:absolute;
+	z-index:1000;
+	border-top:2px #255F88 double;
+	border-bottom:1px #255F88 solid;
+	border-left:1px #1b93a4 solid;
+	border-right:1px #1b93a4 solid;
+	-moz-border-radius: 4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;	
+}
+
+#header .lower-blue-left {
+	width:122px;
+	height:55px;
+	margin-top:20px;
+	margin-left:-72px;
+	background:#1b93a4 url(../imgs/ribbon-bg-lower.png) center repeat-x;
+	position:absolute;
+	left:0px;
+	border-top:3px #255F88 double;
+	border-bottom:3px #255F88 double;
+			
+}
+#header .lower-blue-right {
+	width:122px;
+	height:55px;
+	margin-top:20px;
+	margin-right:-72px;
+	background:#1b93a4 url(../imgs/ribbon-bg-lower.png) center repeat-x;	
+	position:absolute;
+	right:0px;
+	border-top:3px #255F88 double;
+	border-bottom:3px #255F88 double;
+}
+/*-------------end blue ribbon-------------------*/
+
+.arrow-left {
+ 	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 52px 11px 0;
+	border-color: transparent #3E342E transparent transparent;
+	position:absolute;
+	right:0px;
+	bottom:-1px;
+}
+.arrow-right {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 10px 50px 0 0;
+	border-color: #3E342E transparent transparent transparent;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+
+.edge-arrow-left{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 27px 0 27px 10px;
+	border-color: transparent transparent transparent #3E342E;	
+	position:absolute;
+	left:0px;
+	z-index:1001;
+}
+.edge-arrow-right{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 27px 10px 27px 0;
+	border-color: transparent #3E342E transparent transparent;	
+	position:absolute;
+	right:0px;
+	z-index:1001;
+}
+@media (max-width: 480px) {
+	#header .ribbon {
+		width:70%;
+		height:85px;
+		margin: 0 auto;	
+		position:relative;
+		padding-top:10px;
+	}
+}

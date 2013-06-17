@@ -1,21 +1,64 @@
-@charset "UTF-8";
-
-.title {
+.title-box{
+	width:220px;
+	height:300px;
 	position:absolute;
-	float:left;
-	top:50px;
-	left:-60px;
+	left:-100px;
+	top:80px;
 }
-.title h3 {
-	font-family: 'Oleo Script', cursive;
-	font-size:5em;
-	color:#ffffff;
-	opacity:.2;
-	text-align:center;
-	text-shadow: 0px 0px 4px rgba(179, 174, 150, 0.35),1px 1px white, -1px -1px #A87350;
+.title{
+	width:270px;
+	position:relative;
+	float:left;
+	margin:10px 0px 0px 1px;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
 	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);	
+}
+.title h3 {
+	font-family: 'Oleo Script', cursive;
+	font-size:3.7em;
+	color:#DBB99E;
+	opacity:.4;
+	text-align:center;
+	text-shadow: 0px 0px 4px #ffffff,1px 1px #BD7956, 2px 1px #3E342E;
+
+}
+.title-web {
+	margin-right:-10px;
+}
+
+.info {
+	width:400px;
+	height:90px;
+	position:relative;
+	top:-20px;
+	margin: 0 auto;
+}
+.info-box{
+	width:180px;
+	height:90px;
+	position:relative;
+	top:-20px;
+	margin: 0 auto;
+	background:#1b93a4 url(../imgs/ribbon-bg-thanks.png) bottom repeat-x;
+	border-radius: 0px 0px 100px  100px;
+	border:#EC9470 2px double;
+	 -webkit-box-shadow: 0px 0px 16px #58422e;
+	 -moz-box-shadow:    0px 0px 16px #58422e;
+	 box-shadow:         0px 0px 16px #58422e;
+	 z-index:-2000;
+	
+}
+.info-box h3 {
+	
+	font-family: 'Petit Formal Script', cursive;
+	color:#fffefd;
+	font-size:1em;
+	opacity:.9;
+	text-align:center;
+	margin: 30px 0px 20px 0px;
+
 }
