@@ -1,0 +1,284 @@
+@charset "UTF-8";
+* {box-sizing:border-box;}
+@media (min-width: 320px) {
+	
+#header h1{
+	font-size:3em;
+	margin-top:1px;
+}
+.art-box{
+	height:5em;
+	width:100%;
+	
+}
+.art-box:hover{
+	height:5em;
+	width:100%;
+	
+}
+#header .ribbon {
+	width:60%;
+	height:85px;
+	margin: 0 auto;	
+	position:relative;
+	padding:14px 0 10px 0;
+}
+
+#header .lower-blue-left {
+	width:102px;
+	margin-left:-52px;
+			
+}
+#header .lower-blue-right {
+	width:102px;
+	margin-right:-52px;
+}
+ .content{
+	 width:85%;
+	 position: relative;
+	 overflow: hidden;
+	 padding:10px 0px 10px 0px;
+ }
+}
+@media (min-width: 480px){
+
+#header .ribbon {
+	width:350px;
+	height:85px;
+	margin: 0 auto;	
+	position:relative;
+	padding:10px 0 10px 0;
+}
+#header h1{
+	font-size:3.4em;
+	margin-top:-3px;
+}
+}
+@media (min-width: 570px) {
+
+.content{
+	 width: 90%; 
+}
+.art-box{
+	height:7em;
+	width:35%;
+	
+}
+.art-box:hover{
+	height:7em;
+	width:35%;
+	
+}
+}
+@media (min-width: 700px) { /*---------change header style---------------*/
+
+.content{
+	 width: 90%; 
+}
+.art-box{
+	height:6em;
+	width:29%;
+	
+}
+.art-box:hover{
+	height:6em;
+	width:29%;
+	
+}
+#header{
+	 width: 100%;
+	 height: auto;
+     margin: 0;
+     padding:0 0 20px 0;
+	 background:url(../imgs/bg-glow.png) center no-repeat;
+	 position:relative;
+}
+.header-content{
+	 width: 70%;
+     margin: 0 auto;
+     padding: 0;
+	 position:relative;
+}
+
+#header h1{
+	font-size:4em;
+	text-align:center;
+	text-shadow: 3px 2px 2px #305c67;
+	margin: -5px 0px 0px 0px;
+	padding:0px;
+	
+}
+#header h2{
+	font-family: 'Carrois Gothic SC', sans-serif;
+	color:#f8efe3;
+	text-shadow:2px 2px #BD7956, 2px 1px #69280b;
+	font-size:3em;
+	margin:8px 0;
+}
+#header h3{
+	font-family: 'Petit Formal Script', cursive;
+	color:#DBB99E;
+	font-size:1em;
+	margin:0px 0px 10px 0px;
+}
+#header .upper-blue {
+	width:100%;
+	height:75px;
+	margin-bottom:20px;
+	background:#2CADBF url(../imgs/ribbon-bg-upper2.png) center repeat-x;
+	position:absolute;
+	z-index:1000;
+	border-top:2px #255F88 double;
+	border-bottom:1px #255F88 solid;
+	border-left:1px #1b93a4 solid;
+	border-right:1px #1b93a4 solid;
+	-moz-border-radius: 4px 4px 0px 0px;
+	border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;	
+}
+
+#header .lower-blue-left {
+	width:122px;
+	height:65px;
+	margin-top:20px;
+	margin-left:-72px;
+	background:#1b93a4 url(../imgs/ribbon-bg-upper.png) center repeat-x;
+	position:absolute;
+	left:0px;
+	border-top:3px #255F88 double;
+	border-bottom:3px #255F88 double;
+			
+}
+#header .lower-blue-right {
+	width:122px;
+	height:65px;
+	margin-top:20px;
+	margin-right:-72px;
+	background:#1b93a4 url(../imgs/ribbon-bg-upper.png) center repeat-x;	
+	position:absolute;
+	right:0px;
+	border-top:3px #255F88 double;
+	border-bottom:3px #255F88 double;
+}
+.arrow-left {
+ 	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 52px 11px 0;
+	border-color: transparent #3E342E transparent transparent;
+	position:absolute;
+	right:0px;
+	bottom:-1px;
+}
+.arrow-right {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 11px 52px 0 0;
+	border-color: #3E342E transparent transparent transparent;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+
+.edge-arrow-left{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 32px 0 32px 10px;
+	border-color: transparent transparent transparent #3E342E;	
+	position:absolute;
+	left:0px;
+	z-index:1001;
+}
+.edge-arrow-right{
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 32px 10px 32px 0;
+	border-color: transparent #3E342E transparent transparent;	
+	position:absolute;
+	right:0px;
+	z-index:1001;
+}
+}
+@media (min-width: 890px) {
+
+.content{
+	 width: 90%; 
+}
+.art-box{
+	height:6em;
+	width:20%;
+	
+}
+.art-box:hover{
+	height:6em;
+	width:20%;
+	
+}
+}
+@media (min-width: 1024px) {
+
+.content{
+	 width: 90%; 
+}
+.art-box{
+	height:7em;
+	width:20%;
+	
+}
+.art-box:hover{
+	height:7em;
+	width:20%;
+	
+}
+}
+@media (min-width: 1260px) {
+
+.content{
+	 width: 90%;
+}
+.art-box{
+	height:8em;
+	width:18%;
+	
+}
+.art-box:hover{
+	height:8em;
+	width:18%;
+	
+}
+}
+@media (min-width: 1550px) {
+
+.content{
+	 width: 90%;
+}	
+.art-box{
+	height:9em;
+	width:17%;
+	
+}
+.art-box:hover{
+	height:9em;
+	width:17%;
+	
+}
+}
+@media (min-width: 1750px) {
+
+.content{
+	 width: 90%;
+}	
+.art-box{
+	height:9em;
+	width:15%;
+	
+}
+.art-box:hover{
+	height:9em;
+	width:15%;
+	
+}
+}

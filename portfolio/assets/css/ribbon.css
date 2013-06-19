@@ -5,7 +5,7 @@
 	height:85px;
 	margin: 0 auto;	
 	position:relative;
-	padding-top:10px;
+	padding:10px 0 10px 0;
 }
 
 /*--------blue ribbon------------*/
@@ -65,7 +65,7 @@
 	width: 0px;
 	height: 0px;
 	border-style: solid;
-	border-width: 10px 50px 0 0;
+	border-width: 11px 52px 0 0;
 	border-color: #3E342E transparent transparent transparent;
 	position:absolute;
 	left:0px;
@@ -91,13 +91,4 @@
 	position:absolute;
 	right:0px;
 	z-index:1001;
-}
-@media (max-width: 480px) {
-	#header .ribbon {
-		width:70%;
-		height:85px;
-		margin: 0 auto;	
-		position:relative;
-		padding-top:10px;
-	}
 }

@@ -7,13 +7,27 @@ font-family: 'Sansita One', cursive;
 font-family: 'Carrois Gothic SC', sans-serif;
 */
 
-html, body {
-	min-width:400px;
+html body {
+	min-width:320px;
+	max-width:1900px;
 	width: 100%;
 	height: 100%;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	background:#3E342E url(../imgs/dark-texture.png) repeat left top;
+	border-top:#1c120c 7px inset;
+	border-bottom:#1c120c 7px inset;
+	overflow:visible;
+}
+.under-layer{
+	width:94%;
+	height:auto;
+	margin:10px auto;
+	background:#000000/*url(../imgs/teal-texture.png)*/;
+	box-sizing:border-box;
+	border-top:	#3E342E 1px solid;
+	border-left:	#3E342E 1px dashed;
+	border-right:	#3E342E 1px dashed;
 }
 #header{
 	 width: 100%;
@@ -42,9 +56,10 @@ html, body {
 }
 #header h2{
 	font-family: 'Carrois Gothic SC', sans-serif;
-	color:#FFFCF3;
+	color:#f8efe3;
 	text-shadow:1px 1px #BD7956, 2px 1px #69280b;
 	font-size:2.7em;
+	line-height:1em;
 }
 #header h3{
 	font-family: 'Petit Formal Script', cursive;
@@ -66,42 +81,39 @@ html, body {
 	margin: 0px 0px 0px 4px;
 }
 .middler{
+	 width: 99%;
 	 height:auto;
      padding: 0 0px 0 0;
 	 position:relative;
-	 
+	 margin:-10px auto;
 	 box-sizing:border-box;
   	 -moz-box-sizing:border-box;
   	 -webkit-box-sizing:border-box;
 	 -webkit-box-shadow: 0px 0px 16px rgba(22, 9, 0, 0.18);
 	 -moz-box-shadow:    0px 0px 16px rgba(22, 9, 0, 0.18);
 	 box-shadow:         0px 0px 16px rgba(22, 9, 0, 0.18);
+	 overflow: visible;
 	 
 }
  .content{
-	 width:70%;
+	 width:100%;
 	 margin: 0 auto;
 	 position: relative;
-	 overflow: hidden;
 	 padding:10px 0px 10px 0px;
  }
  .art-section{
-	 width:100%;
-	 margin: 0;
+	 width:94%;
+	 margin: 0 7px 0 0;
 	 padding:0;
 	 position: relative;
 	 clear:both;
- }
- .art-content{
-	 width:70%;
-	 margin: 0 auto;
-	 padding:10px 100px 10px 100px;
-	 position: relative;
+	 float:right;
+	 overflow: visible;
  }
 .icon-box {
 	width:100%;
 	position:relative;
-	margin: 5px 0 -47px -15px;
+	margin: 5px 0 -57px -15px;
 }
 .icon-box ul{
 	position:relative;
@@ -178,7 +190,7 @@ html, body {
 	width:80%;
 	position:relative;
 	text-align:center;
-	padding-top:0px;
+	padding:10px 0;
 }
 
 p {
